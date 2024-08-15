@@ -1,6 +1,14 @@
 # Resume_Builder_AIHawk
 
-Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help you create visually stunning resumes quickly and easily. This application allows you to generate resumes either from scratch or based on job descriptions fetched from URLs.
+🚀 Join Our Telegram Community! 🚀
+
+Join our Telegram community for:
+
+Support with AIHawk software
+Share your experiences with AIhawk and learn from others
+Job search tips and resume advice
+Idea exchange and resources for your projects
+📲 Join now!
 
 ## Table of Contents
 
@@ -19,7 +27,8 @@ Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help yo
 
 ## Introduction
 
-**Resume_Builder_AIHawk** is a powerful Python tool that simplifies the process of creating professional resumes. Whether starting from scratch or tailoring your resume based on job descriptions, this tool offers a range of features to help you craft a resume that stands out.
+Resume_Builder_AIHawk is powerful Python tool that simplifies the creation of visually stunning resumes quickly and easily. With this tool, you can not only build a resume from scratch but also tailor it perfectly based on a specific job description. By inputting the URL of the job listing, Resume_Builder_AIHawk customizes your resume to match the exact requirements and skills needed, making it ideal for enhancing your chances of landing the job.
+
 
 ## Features
 
@@ -287,6 +296,9 @@ You will be prompted to select a resume style and, if needed, provide a URL for 
 
 If you encounter any issues, you can open an issue on GitHub. I'll be more than happy to assist you!
 
+For immediate support and to connect with the AIHawk community, join our Telegram group.
+📲 [Join now!](https://t.me/AIhawkCommunity)
+
 ## Conclusion
 
 Resume_Builder_AIHawk simplifies the resume creation process by providing a flexible, style-driven approach. By configuring `plain_text_resume.yaml` and using the interactive prompts, you can easily generate professional resumes tailored to your needs.
@@ -294,6 +306,35 @@ Resume_Builder_AIHawk simplifies the resume creation process by providing a flex
 ## Contributors
 
 - [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
+
+## Contributing
+
+We welcome contributions from the community! Whether you are a designer, prompt engineer, software engineer, or have other skills to offer, there are several ways you can contribute to Resume_Builder_AIHawk:
+
+### Designers
+Help us enhance the visual appeal of the resume templates. [Learn how to contribute as a designer.](how_to_contribute/web_designer.md)
+
+### Prompt Engineers
+Assist in refining and developing effective prompts for resume customization. [Learn how to contribute as a prompt engineer.](how_to_contribute/prompt_engineer)
+
+### Software Engineers
+Contribute by submitting pull requests to improve the codebase, fix bugs, or add new features. [Learn how to contribute as a software engineer.](#)
+
+### Other Contributions
+You can also contribute by:
+- Reporting issues
+- Suggesting features
+- Improving documentation
+
+### Other Contributions
+You can also contribute by:
+- Reporting issues
+- Suggesting features
+- Improving documentation
+
+For immediate support and to connect with the AIHawk community, join our Telegram group.
+📲 [Join now!](https://t.me/AIhawkCommunity)
+
 
 ## Credits
 
