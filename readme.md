@@ -1,6 +1,6 @@
 # Resume_Builder_AIHawk
 
-Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help you create visually stunning resumes quickly and easily. This application allows you to generate resumes either from scratch or based on job descriptions fetched from URLs.
+
 
 ## Table of Contents
 
@@ -11,15 +11,13 @@ Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help yo
 5. [Usage](#usage)
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
-8. [Conclusion](#conclusion)
-9. [Contributors](#contributors)
-10. [Credits](#credits)
-11. [License](#license)
-12. [Disclaimer](#disclaimer)
+8. [Contributors](#contributors)
+9. [License](#license)
+10. [Disclaimer](#disclaimer)
 
 ## Introduction
 
-**Resume_Builder_AIHawk** is a powerful Python tool that simplifies the process of creating professional resumes. Whether starting from scratch or tailoring your resume based on job descriptions, this tool offers a range of features to help you craft a resume that stands out.
+Resume_Builder_AIHawk ia a powerful Python tool that simplifies the creation of visually stunning resumes quickly and easily. With this tool, you can not only build a resume from scratch but also tailor it perfectly based on a specific job description. By inputting the URL of the job listing, Resume_Builder_AIHawk customizes your resume to match the exact requirements and skills needed, making it ideal for enhancing your chances of landing the job.
 
 ## Features
 
@@ -248,7 +246,7 @@ interests:
 
 - **interest**: List your interests or hobbies.
 
-### Example `plain_text_resume.yaml`
+#### Example `plain_text_resume.yaml`
 
 An example `plain_text_resume.yaml` file is provided in the repository to guide you. Copy and modify it according to your personal details.
 
@@ -287,17 +285,11 @@ You will be prompted to select a resume style and, if needed, provide a URL for 
 
 If you encounter any issues, you can open an issue on GitHub. I'll be more than happy to assist you!
 
-## Conclusion
-
-Resume_Builder_AIHawk simplifies the resume creation process by providing a flexible, style-driven approach. By configuring `plain_text_resume.yaml` and using the interactive prompts, you can easily generate professional resumes tailored to your needs.
 
 ## Contributors
 
 - [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
 
-## Credits
-
-    todo
 
 ## License
 
