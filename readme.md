@@ -20,6 +20,7 @@ Join our **Telegram community** for:
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
 8. [Contributors](#contributors)
+8. [How to contribute](#How to contribute)
 9. [License](#license)
 10. [Disclaimer](#disclaimer)
 
@@ -316,18 +317,18 @@ Resume_Builder_AIHawk simplifies the resume creation process by providing a flex
 
 - [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
 
-## Contributing
+## How to contribute
 
 We welcome contributions from the community! Whether you are a designer, prompt engineer, software engineer, or have other skills to offer, there are several ways you can contribute to Resume_Builder_AIHawk:
 
-### Designers
+### Web Designers
 Help us enhance the visual appeal of the resume templates. [Learn how to contribute as a designer.](how_to_contribute/web_designer.md)
 
 ### Prompt Engineers
-Assist in refining and developing effective prompts for resume customization. [Learn how to contribute as a prompt engineer.](how_to_contribute/prompt_engineer)
+Assist in refining and developing effective prompts for resume customization. [Learn how to contribute as a prompt engineer.](how_to_contribute/prompt_engineer.md)
 
 ### Software Engineers
-Contribute by submitting pull requests to improve the codebase, fix bugs, or add new features. [Learn how to contribute as a software engineer.](#)
+Contribute by submitting pull requests to improve the codebase, fix bugs, or add new features. [Learn how to contribute as a software engineer.](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 
 ### Other Contributions
 You can also contribute by:
