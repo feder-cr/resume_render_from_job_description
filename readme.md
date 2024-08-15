@@ -1,5 +1,6 @@
 # Resume_Builder_AIHawk
 
+<<<<<<< HEAD
 🚀 Join Our Telegram Community! 🚀
 
 Join our Telegram community for:
@@ -9,6 +10,9 @@ Share your experiences with AIhawk and learn from others
 Job search tips and resume advice
 Idea exchange and resources for your projects
 📲 Join now!
+=======
+
+>>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## Table of Contents
 
@@ -19,16 +23,18 @@ Idea exchange and resources for your projects
 5. [Usage](#usage)
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
-8. [Conclusion](#conclusion)
-9. [Contributors](#contributors)
-10. [Credits](#credits)
-11. [License](#license)
-12. [Disclaimer](#disclaimer)
+8. [Contributors](#contributors)
+9. [License](#license)
+10. [Disclaimer](#disclaimer)
 
 ## Introduction
 
+<<<<<<< HEAD
 Resume_Builder_AIHawk is powerful Python tool that simplifies the creation of visually stunning resumes quickly and easily. With this tool, you can not only build a resume from scratch but also tailor it perfectly based on a specific job description. By inputting the URL of the job listing, Resume_Builder_AIHawk customizes your resume to match the exact requirements and skills needed, making it ideal for enhancing your chances of landing the job.
 
+=======
+Resume_Builder_AIHawk ia a powerful Python tool that simplifies the creation of visually stunning resumes quickly and easily. With this tool, you can not only build a resume from scratch but also tailor it perfectly based on a specific job description. By inputting the URL of the job listing, Resume_Builder_AIHawk customizes your resume to match the exact requirements and skills needed, making it ideal for enhancing your chances of landing the job.
+>>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## Features
 
@@ -257,7 +263,7 @@ interests:
 
 - **interest**: List your interests or hobbies.
 
-### Example `plain_text_resume.yaml`
+#### Example `plain_text_resume.yaml`
 
 An example `plain_text_resume.yaml` file is provided in the repository to guide you. Copy and modify it according to your personal details.
 
@@ -296,17 +302,21 @@ You will be prompted to select a resume style and, if needed, provide a URL for 
 
 If you encounter any issues, you can open an issue on GitHub. I'll be more than happy to assist you!
 
+<<<<<<< HEAD
 For immediate support and to connect with the AIHawk community, join our Telegram group.
 📲 [Join now!](https://t.me/AIhawkCommunity)
 
 ## Conclusion
 
 Resume_Builder_AIHawk simplifies the resume creation process by providing a flexible, style-driven approach. By configuring `plain_text_resume.yaml` and using the interactive prompts, you can easily generate professional resumes tailored to your needs.
+=======
+>>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## Contributors
 
 - [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
 
+<<<<<<< HEAD
 ## Contributing
 
 We welcome contributions from the community! Whether you are a designer, prompt engineer, software engineer, or have other skills to offer, there are several ways you can contribute to Resume_Builder_AIHawk:
@@ -339,6 +349,8 @@ For immediate support and to connect with the AIHawk community, join our Telegra
 ## Credits
 
     todo
+=======
+>>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## License
 
