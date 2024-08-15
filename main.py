@@ -1,4 +1,5 @@
 from email import utils
+import os
 from pathlib import Path
 import yaml
 from src.manager_facade import FacadeManager
@@ -25,6 +26,10 @@ def validate_secrets(secrets_yaml_path: Path):
     return secrets['openai_api_key']
 
 def main():
+    folder = "log"
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
     api_key = validate_secrets(Path("secrets.yaml"))
     config = Config(
         STRINGS_MODULE_RESUME_PATH=Path("resume_prompt/strings_feder-cr.py").resolve(),
