@@ -1,0 +1,112 @@
+personal_information:
+  name: alessandro
+  surname: rossi
+  date_of_birth: "15/06/2000"
+  country: germany
+  city: berlin
+  address: berlin_4_germany
+  phone_prefix: "+49"
+  phone: "1745522991"
+  email: alessandro.rossi.dev@example.com
+  github: https://github.com/alex-dev-code
+  linkedin: https://www.linkedin.com/in/alessandro-rossi-dev/
+
+education_details:
+  - degree: bachelor's
+    university: technical university of munich
+    gpa: "3.9/4"
+    graduation_year: "2022"
+    field_of_study: computer engineering
+    exam:
+      computer_architecture: "4/4"
+      algorithms_and_data_structures: "3.8/4"
+      object_oriented_programming: "3.9/4"
+      linear_algebra: "3.7/4"
+      databases: "4/4"
+
+experience_details:
+  - position: co-founder software engineer
+    company: fintech_hub
+    employment_period: "03/2021 - present"
+    location: germany
+    industry: fintech
+    key_responsibilities:
+      - responsibility_1: co founded startup focusing on fintech solutions and digital payments
+      - responsibility_2: developed advanced payment solutions utilized by various financial institutions across europe
+      - responsibility_3: led team in developing cloud based software solutions for digital banking platforms
+    skills_acquired:
+      - fintech
+      - software_development
+      - cloud_computing
+
+  - position: research intern
+    company: technical university of munich
+    employment_period: "06/2022 - 10/2022"
+    location: munich_germany
+    industry: cybersecurity
+    key_responsibilities:
+      - responsibility_1: conducted research on cybersecurity focusing on encryption algorithms and network security
+      - responsibility_2: performed in_depth analysis of tls protocols and security tools
+      - responsibility_3: developed software modules for secure data transmission in iot networks
+    skills_acquired:
+      - cybersecurity
+      - encryption_algorithms
+      - network_security
+      - tls_protocols
+
+  - position: software engineer
+    company: siemens healthcare
+    employment_period: "05/2022 - 01/2023"
+    location: munich germany
+    industry: healthcare
+    key_responsibilities:
+      - responsibility_1: developed software tools for patient data management
+      - responsibility_2: integrated advanced security measures for protecting medical records
+    skills_acquired:
+      - healthcare software
+      - data management
+      - security protocols
+
+
+projects:
+  - name: jobhunter ai
+    description: developed ai base platform 
+    link: "https://github.com/alex-dev-code/jobhunter_ai"
+
+  - name: mqtt analyzer
+    description: created python tool for analyzing mqtt packets
+    link: "https://github.com/alex-dev-code/mqtt_analyzer"
+
+  - name: data scraper tool
+    description: built custom tool for scraping and analyzing public data sources
+    link: "https://github.com/alex-dev-code/data_scraper_tool"
+
+
+achievements:
+  - name: fintech solution development
+    description: led development of fintech_platform utilized by major banks across europe enhancing transaction efficiency and security
+
+  - name: healthcare data security
+    description: successfully developed implemented advanced security measures protecting sensitive medical data
+
+  - name: cybersecurity research
+    description: contributed to cybersecurity research leading to publication on advanced encryption techniques
+
+
+certifications:
+  - c1_german
+
+languages:
+  - language: german
+    proficiency: native
+  - language: english
+    proficiency: professional
+
+
+interests:
+  - software development
+  - cloud computing
+  - fintech
+  - cybersecurity
+  - machine learning
+  - kickboxing
