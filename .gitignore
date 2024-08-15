@@ -4,3 +4,4 @@ log
 /src/__pycache__
 test*
 secrets.yaml
+resume*
