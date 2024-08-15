@@ -1,18 +1,14 @@
 # Resume_Builder_AIHawk
 
-<<<<<<< HEAD
-🚀 Join Our Telegram Community! 🚀
+🚀 **Join Our Telegram Community!** 🚀
 
-Join our Telegram community for:
+Join our **Telegram community** for:
+- **Support with AIHawk software**
+- **Share your experiences** with AIhawk and learn from others
+- **Job search tips** and **resume advice**
+- **Idea exchange** and resources for your projects
 
-Support with AIHawk software
-Share your experiences with AIhawk and learn from others
-Job search tips and resume advice
-Idea exchange and resources for your projects
-📲 Join now!
-=======
-
->>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
+📲 **[Join now!](https://t.me/AIhawkCommunity)**
 
 ## Table of Contents
 
@@ -29,12 +25,8 @@ Idea exchange and resources for your projects
 
 ## Introduction
 
-<<<<<<< HEAD
 Resume_Builder_AIHawk is powerful Python tool that simplifies the creation of visually stunning resumes quickly and easily. With this tool, you can not only build a resume from scratch but also tailor it perfectly based on a specific job description. By inputting the URL of the job listing, Resume_Builder_AIHawk customizes your resume to match the exact requirements and skills needed, making it ideal for enhancing your chances of landing the job.
 
-=======
-Resume_Builder_AIHawk ia a powerful Python tool that simplifies the creation of visually stunning resumes quickly and easily. With this tool, you can not only build a resume from scratch but also tailor it perfectly based on a specific job description. By inputting the URL of the job listing, Resume_Builder_AIHawk customizes your resume to match the exact requirements and skills needed, making it ideal for enhancing your chances of landing the job.
->>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## Features
 
@@ -46,19 +38,30 @@ Resume_Builder_AIHawk ia a powerful Python tool that simplifies the creation of 
 
 To get started with Resume_Builder_AIHawk, follow these steps:
 
-1. **Clone the Repository:**
+1. **Download and Install Python:**
+
+   Ensure you have the last Python version installed. If not, download and install it from Python's official website. For detailed instructions, refer to the tutorials:
+
+   - [How to Install Python on Windows](https://www.geeksforgeeks.org/how-to-install-python-on-windows/)
+   - [How to Install Python on Linux](https://www.geeksforgeeks.org/how-to-install-python-on-linux/)
+   - [How to Download and Install Python on macOS](https://www.geeksforgeeks.org/how-to-download-and-install-python-latest-version-on-macos-mac-os-x/)
+
+2. **Download and Install Google Chrome:**
+   - Download and install the latest version of Google Chrome in its default location from the [official website](https://www.google.com/chrome).
+
+3. **Clone the Repository:**
 
     ```bash
     git clone https://github.com/yourusername/resume_builder_AIHawk.git
     ```
 
-2. **Navigate to the Project Directory:**
+4. **Navigate to the Project Directory:**
 
     ```bash
     cd resume_builder_AIHawk
     ```
 
-3. **Install Dependencies:**
+5. **Install Dependencies:**
 
     Ensure you have `pip` installed, then run:
 
@@ -302,21 +305,17 @@ You will be prompted to select a resume style and, if needed, provide a URL for 
 
 If you encounter any issues, you can open an issue on GitHub. I'll be more than happy to assist you!
 
-<<<<<<< HEAD
 For immediate support and to connect with the AIHawk community, join our Telegram group.
 📲 [Join now!](https://t.me/AIhawkCommunity)
 
 ## Conclusion
 
 Resume_Builder_AIHawk simplifies the resume creation process by providing a flexible, style-driven approach. By configuring `plain_text_resume.yaml` and using the interactive prompts, you can easily generate professional resumes tailored to your needs.
-=======
->>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## Contributors
 
 - [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
 
-<<<<<<< HEAD
 ## Contributing
 
 We welcome contributions from the community! Whether you are a designer, prompt engineer, software engineer, or have other skills to offer, there are several ways you can contribute to Resume_Builder_AIHawk:
@@ -349,8 +348,6 @@ For immediate support and to connect with the AIHawk community, join our Telegra
 ## Credits
 
     todo
-=======
->>>>>>> 6f1c6d67e55ee1308e49e4dd7d7b1727ddefa42c
 
 ## License
 
