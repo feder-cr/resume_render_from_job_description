@@ -1,0 +1,149 @@
+/*test$ChatGPT*/
+/* resume_style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #222;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #007bff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.contact-info p span {
+    margin-left: 10px;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.entry {
+    margin-bottom: 20px;
+}
+
+.entry-header {
+    margin-bottom: 5px;
+}
+
+.entry-name {
+    font-weight: 600;
+    display: block;
+}
+
+.entry-location {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.entry-title {
+    display: block;
+    font-weight: 500;
+}
+
+.entry-year {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+ul.compact-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.compact-list li {
+    margin-bottom: 5px;
+}
+
+/* Additional Skills */
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-column ul {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.two-column ul:last-child {
+    margin-right: 0;
+}
+
+/* FontAwesome Icons */
+.fas, .fab {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+/* Links in Entries */
+.entry-header a {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.entry-header a:hover {
+    text-decoration: underline;
+}

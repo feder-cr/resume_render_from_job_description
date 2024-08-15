@@ -1,0 +1,98 @@
+personal_information:
+  name: [Name]
+  surname: [Surname]
+  date_of_birth: "[DD/MM/YYYY]"
+  country: [Country]
+  city: [City]
+  address: [Address]
+  phone_prefix: "[+Country Code]"
+  phone: "[Phone Number]"
+  email: [Email Address]
+  github: [GitHub URL]
+  linkedin: [LinkedIn URL]
+
+education_details:
+  - degree: [Degree Type]
+    university: [University Name]
+    gpa: "[GPA]"
+    graduation_year: "[Graduation Year]"
+    field_of_study: [Field of Study]
+    exam:
+      [Course Name]: "[Grade]"
+      [Course Name]: "[Grade]"
+      [Course Name]: "[Grade]"
+  - degree: [Degree Type]
+    university: [University Name]
+    gpa: "[GPA]"
+    graduation_year: "[Graduation Year]"
+    field_of_study: [Field of Study]
+    exam:
+      [Course Name]: "[Grade]"
+      [Course Name]: "[Grade]"
+      [Course Name]: "[Grade]"
+
+experience_details:
+  - position: [Job Title]
+    company: [Company Name]
+    employment_period: "[MM/YYYY - MM/YYYY or Present]"
+    location: [Location]
+    industry: [Industry]
+    key_responsibilities:
+      - [Responsibility Description]
+      - [Responsibility Description]
+      - [Responsibility Description]
+    skills_acquired:
+      - [Skill]
+      - [Skill]
+      - [Skill]
+
+    - position: [Job Title]
+    company: [Company Name]
+    employment_period: "[MM/YYYY - MM/YYYY or Present]"
+    location: [Location]
+    industry: [Industry]
+    key_responsibilities:
+      - [Responsibility Description]
+      - [Responsibility Description]
+      - [Responsibility Description]
+    skills_acquired:
+      - [Skill]
+      - [Skill]
+      - [Skill]
+
+projects:
+  - name: [Project Name]
+    description: [Project Description]
+    link: "[Project URL]"
+  - name: [Project Name]
+    description: [Project Description]
+    link: "[Project URL]"
+  - name: [Project Name]
+    description: [Project Description]
+    link: "[Project URL]"
+
+achievements:
+  - name: [Achievement Title]
+    description: [Achievement Description]
+  - name: [Achievement Title]
+    description: [Achievement Description]
+  - name: [Achievement Title]
+    description: [Achievement Description]
+  - name: [Achievement Title]
+    description: [Achievement Description]
+
+certifications:
+  - [Certification Name]
+
+languages:
+  - language: [Language]
+    proficiency: [Proficiency Level]
+  - language: [Language]
+    proficiency: [Proficiency Level]
+  - language: [Language]
+    proficiency: [Proficiency Level]
+
+interests:
+  - [Interest]
+  - [Interest]
+  - [Interest]

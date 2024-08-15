@@ -1,0 +1,114 @@
+personal_information:
+  name: federico
+  surname: elia
+  date_of_birth: "10/04/2001"
+  country: ireland
+  city: dublin
+  address: dublin_3_ireland
+  phone_prefix: "+353"
+  phone: "892338335"
+  email: federico.elia.majo@gmail.com
+  github: https://github.com/feder-cr
+  linkedin: https://www.linkedin.com/in/federico-elia-5199951b6/
+
+
+education_details:
+  - degree: bachelor's
+    university: university_of_genoa
+    gpa: "4/4"
+    graduation_year: "2023"
+    field_of_study: computer_science
+    exam:
+      information_theory_and_inference: "4/4"
+      algorithm_analysis_and_design: "4/4"
+      object_oriented_languages_and_programming: "4/4"
+      linear_algebra_and_numerical_analysis: "4/4"
+      database: "4/4"
+
+experience_details:
+  - position: co_founder_software_engineer
+    company: blockchain_rush
+    employment_period: "01/2022 - present"
+    location: italy
+    industry: blockchain_technology
+    key_responsibilities:
+      - responsibility_1: co_founded_led_startup_specializing_in_app_and_software_development_with_focus_on_blockchain_technology
+      - responsibility_2: provided_blockchain_consultations_to_various_companies_enhancing_software_capabilities_with_secure_decentralized_solutions
+      - responsibility_3: developed_managed_blockchain_based_applications_integrating_cutting_edge_technology_to_meet_client_needs
+    skills_acquired:
+      - blockchain
+      - software_development
+      - consulting
+
+  - position: research_intern
+    company: university_of_genoa
+    employment_period: "11/2023 - 03/2024"
+    location: genoa_italy
+    industry: iot_security
+    key_responsibilities:
+      - responsibility_1: conducted_research_on_iot_security_focusing_on_binary_instrumentation_runtime_monitoring
+      - responsibility_2: performed_in_depth_study_of_mqtt_protocol_falco_security_tool
+      - responsibility_3: developed_software_components_including_mqtt_packet_analysis_library_falco_adapter_rml_monitor_in_prolog
+    skills_acquired:
+      - iot_security
+      - binary_instrumentation
+      - runtime_monitoring
+      - mqtt_protocol
+      - prolog
+
+  - position: software_engineer
+    company: galliera_hospital
+    employment_period: "02/2023 - 08/2023"
+    location: genoa_italy
+    industry: healthcare
+    key_responsibilities:
+      - responsibility_1: integrated_enforced_robust_security_protocols
+      - responsibility_2: developed_maintained_critical_software_tool_for_password_validation_used_by_1600_employees
+    skills_acquired:
+      - cybersecurity
+      - software_development
+      - password_management
+
+
+projects:
+  - name: linkedin_aihawk
+    description: created_ai_driven_tool_to_automate_personalize_job_applications_on_linkedin 2000 stars
+    link: "https://github.com/feder-cr/linkedin_aihawk"
+
+  - name: parse_mqttv5_packet
+    description: developed_nodejs_module_for_parsing_mqtt_packets
+    link: "https://github.com/feder-cr/parse-mqttv5-packet"
+
+  - name: hibp_downloader
+    description: developed_automated_tool_for_downloading_updating_local_have_i_been_pwned_database
+    link: "https://github.com/feder-cr/HIBP_downloader"
+
+
+achievements:
+  - name: blockchain_application_development
+    description: led_development_of_blockchain_based_application_utilized_by_over_100_clients_in_finance_sector_enhancing_transaction_security_and_operational_efficiency
+
+  - name: healthcare_security_integration
+    description: successfully_integrated_enforced_robust_security_protocols_for_healthcare_system_ensuring_safety_of_sensitive_data_for_1600_employees
+
+  - name: iot_security_research
+    description: contributed_to_iot_security_research_at_university_of_genoa_leading_to_publication_of_paper_on_binary_instrumentation_techniques
+
+
+certifications:
+  - c1_english
+
+languages:
+  - language: italian
+    proficiency: native
+  - language: english
+    proficiency: professional
+
+
+interests:
+  - full_stack_development
+  - software_architecture
+  - iot
+  - runtime_monitoring
+  - cloud_technologies
+  - bjj
