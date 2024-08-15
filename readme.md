@@ -55,7 +55,7 @@ To get started with Resume_Builder_AIHawk, follow these steps:
 
 ## Configuration
 
-### Configuring `plain_text_resume.yaml`
+### 1. Configuring `plain_text_resume.yaml`
 
 The `plain_text_resume.yaml` file is crucial as it contains all your personal details and resume content. Follow these steps to configure it properly:
 
@@ -254,7 +254,7 @@ interests:
 
 An example `plain_text_resume.yaml` file is provided in the repository to guide you. Copy and modify it according to your personal details.
 
-### Configuring `secrets.yaml`
+### 2. Configuring `secrets.yaml`
 
 This file contains sensitive information. Never share or commit this file to version control.
 
