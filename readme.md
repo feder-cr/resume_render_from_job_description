@@ -264,18 +264,12 @@ An example `plain_text_resume.yaml` file is provided in the repository to guide 
 
 ### Configuring `secrets.yaml`
 
-Create a file named `secrets.yaml` in the root directory to store sensitive information such as API keys. Here’s a sample format:
+This file contains sensitive information. Never share or commit this file to version control.
 
-```yaml
-api_keys:
-  google_api_key: "[Your Google API Key]"
-  linkedin_api_key: "[Your LinkedIn API Key]"
-
-other_secrets:
-  secret_key: "[Your Secret Key]"
-```
-
-Replace placeholders with your actual API keys and secrets.
+- `openai_api_key: [Your OpenAI API key]`
+  - Replace with your OpenAI API key for GPT integration
+  - To obtain an API key, follow the tutorial at: https://medium.com/@lorenzozar/how-to-get-your-own-openai-api-key-f4d44e60c327
+  - Note: You need to add credit to your OpenAI account to use the API. You can add credit by visiting the [OpenAI billing dashboard](https://platform.openai.com/account/billing).
 
 ## Usage
 
@@ -297,20 +291,11 @@ You will be prompted to select a resume style and, if needed, provide a URL for 
 
 ## Documentation
 
-For detailed documentation on the `FacadeManager` class and
-
- its methods, refer to the inline comments in the code and the `docs/` directory of the project.
+ todo
 
 ## Troubleshooting
 
-- **Issue:** The application does not start.
-  - **Solution:** Ensure all dependencies are installed and that you have the correct version of Python.
-
-- **Issue:** The resume is not generated correctly.
-  - **Solution:** Check the format and values in your `plain_text_resume.yaml` file for errors.
-
-- **Issue:** Missing styles or configurations.
-  - **Solution:** Ensure that the `STYLES_DIRECTORY` is correctly set and contains the necessary style files.
+If you encounter any issues, you can open an issue on GitHub. I'll be more than happy to assist you!
 
 ## Conclusion
 
@@ -318,12 +303,11 @@ ResumeBuilder AIHawk simplifies the resume creation process by providing a flexi
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername) - Creator and Lead Developer
+- [feder-cr](https://github.com/feder-cr) - Creator and Lead Developer
 
 ## Credits
 
-- [Inquirer](https://github.com/inquirer) - For interactive command-line prompts.
-- [Requests](https://docs.python-requests.org/en/latest/) - For HTTP requests.
+    todo
 
 ## License
 

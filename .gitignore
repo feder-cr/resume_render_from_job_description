@@ -3,3 +3,4 @@ __pycache__
 log
 /src/__pycache__
 test*
+secrets.yaml
