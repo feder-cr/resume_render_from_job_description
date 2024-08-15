@@ -8,8 +8,6 @@ Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help yo
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Configuration](#configuration)
-   - [Configuring `plain_text_resume.yaml`](#configuring-plain_text_resume_yaml)
-   - [Configuring `secrets.yaml`](#configuring-secrets_yaml)
 5. [Usage](#usage)
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
