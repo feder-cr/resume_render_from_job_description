@@ -12,17 +12,43 @@ Join our **Telegram community** for:
 
 ## Table of Contents
 
+## Table of Contents
+
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Installation](#installation)
+   - [Download and Install Python](#download-and-install-python)
+   - [Download and Install Google Chrome](#download-and-install-google-chrome)
+   - [Clone the Repository](#clone-the-repository)
+   - [Navigate to the Project Directory](#navigate-to-the-project-directory)
+   - [Install Dependencies](#install-dependencies)
 4. [Configuration](#configuration)
+   - [Configuring `plain_text_resume.yaml`](#configuring-plain_text_resumeyaml)
+     - [Create the File](#create-the-file)
+     - [Define Personal Information](#define-personal-information)
+     - [Provide Education Details](#provide-education-details)
+     - [List Experience Details](#list-experience-details)
+     - [Detail Your Projects](#detail-your-projects)
+     - [Add Achievements](#add-achievements)
+     - [List Certifications](#list-certifications)
+     - [Detail Your Language Skills](#detail-your-language-skills)
+     - [Add Interests](#add-interests)
+     - [Example `plain_text_resume.yaml`](#example-plain_text_resumeyaml)
+   - [Configuring `secrets.yaml`](#configuring-secretsyaml)
 5. [Usage](#usage)
+   - [Interactive CLI](#interactive-cli)
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
-8. [Contributors](#contributors)
-8. [How to contribute](#How to contribute)
-9. [License](#license)
-10. [Disclaimer](#disclaimer)
+8. [Conclusion](#conclusion)
+9. [How to Contribute](#how-to-contribute)
+   - [Web Designers](#web-designers)
+   - [Prompt Engineers](#prompt-engineers)
+   - [Software Engineers](#software-engineers)
+   - [Other Contributions](#other-contributions)
+10. [Credits](#credits)
+11. [License](#license)
+12. [Disclaimer](#disclaimer)
+
 
 ## Introduction
 
