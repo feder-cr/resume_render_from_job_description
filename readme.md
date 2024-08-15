@@ -8,8 +8,6 @@ Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help yo
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Configuration](#configuration)
-   - [Configuring `plain_text_resume.yaml`](#configuring-plain_text_resume_yaml)
-   - [Configuring `secrets.yaml`](#configuring-secrets_yaml)
 5. [Usage](#usage)
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
@@ -55,7 +53,7 @@ To get started with Resume_Builder_AIHawk, follow these steps:
 
 ## Configuration
 
-### Configuring `plain_text_resume.yaml`
+### 1. Configuring `plain_text_resume.yaml`
 
 The `plain_text_resume.yaml` file is crucial as it contains all your personal details and resume content. Follow these steps to configure it properly:
 
@@ -254,7 +252,7 @@ interests:
 
 An example `plain_text_resume.yaml` file is provided in the repository to guide you. Copy and modify it according to your personal details.
 
-### Configuring `secrets.yaml`
+### 2. Configuring `secrets.yaml`
 
 This file contains sensitive information. Never share or commit this file to version control.
 
