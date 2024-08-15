@@ -6,7 +6,6 @@ from src.config import Config
 from src.resume import Resume
 from src.style_manager import StyleManager
 from src.resume_generator import ResumeGenerator
-from src.utils import HTML_to_PDF
 
 @staticmethod
 def validate_secrets(secrets_yaml_path: Path):
@@ -42,8 +41,7 @@ def main():
     style_manager = StyleManager()
     resume_generator = ResumeGenerator()
     manager = FacadeManager(config, style_manager, resume_generator, resume_object)
-    manager.run()
-    HTML_to_PDF(config.OUTPUT_FILE_PATH)
+    manager.run()    
 
 if __name__ == "__main__":
     main()

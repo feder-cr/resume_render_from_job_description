@@ -1,6 +1,8 @@
+import base64
 import inquirer
 import requests
 import json
+from src.utils import HTML_to_PDF
 
 
 class FacadeManager:
@@ -51,3 +53,8 @@ class FacadeManager:
             elif action == 'Create Resume based on Job Description':
                 url_job_description = self.prompt_for_url("Please enter the URL of the job description:")
                 self.resume_generator.create_resume_job_description(style_path, url_job_description)
+            with open("resume.pdf", "wb") as f:
+                    f.write(base64.b64decode(HTML_to_PDF(self.config.OUTPUT_FILE_PATH)))
+            
+            print("Finish...")
+            exit()
