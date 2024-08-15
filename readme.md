@@ -10,7 +10,6 @@ Join our **Telegram community** for:
 
 📲 **[Join now!](https://t.me/AIhawkCommunity)**
 
-## Table of Contents
 
 ## Table of Contents
 
