@@ -1,3 +1,4 @@
+import os
 from typing import Any
 from string import Template
 from typing import Any
@@ -21,7 +22,9 @@ class ResumeGenerator:
             gpt_answerer.set_resume(self.resume_object)
             template = Template(utils.html_template)
             message = template.substitute(markdown=gpt_answerer.generate_html_resume(), style_path=style_path)
-            with open(self.config.OUTPUT_FILE_PATH, 'w', encoding="utf-8") as output_file:
+            if os.path.exists(self.config.OUTPUT_FILE_PATH):
+                os.remove(self.config.OUTPUT_FILE_PATH)
+            with open(self.config.OUTPUT_FILE_PATH, 'x', encoding="utf-8") as output_file:
                 output_file.write(message)
             print(f"The resume has been saved to {self.config.OUTPUT_FILE_PATH}")
 
