@@ -27,7 +27,7 @@ Welcome to **Resume_Builder_AIHawk** – a Python-based tool designed to help yo
 
 - **Interactive Command-Line Interface:** Navigate through options and prompts using a user-friendly CLI.
 - **Dynamic Style Management:** Choose from a variety of pre-defined resume styles.
-- **Job Description Integration:** Automatically tailor your resume based on a job description URL.
+- **Job Description Integration:** Automatically tailor your resume based on a job URL.
 
 ## Installation
 
