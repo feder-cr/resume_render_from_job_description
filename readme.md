@@ -53,14 +53,6 @@ To get started with Resume_Builder_AIHawk, follow these steps:
     pip install -r requirements.txt
     ```
 
-## Dependencies
-
-Ensure the following Python libraries are installed:
-
-- `inquirer`: For interactive command-line prompts.
-- `requests`: For fetching job descriptions from URLs.
-- `pyyaml`: For handling YAML configuration files.
-
 ## Configuration
 
 ### Configuring `plain_text_resume.yaml`
