@@ -10,6 +10,7 @@ Join our **Telegram community** for:
 
 📲 **[Join now!](https://t.me/AIhawkCommunity)**
 
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -19,10 +20,16 @@ Join our **Telegram community** for:
 5. [Usage](#usage)
 6. [Documentation](#documentation)
 7. [Troubleshooting](#troubleshooting)
-8. [Contributors](#contributors)
-8. [How to contribute](#How to contribute)
-9. [License](#license)
-10. [Disclaimer](#disclaimer)
+8. [Conclusion](#conclusion)
+9. [How to Contribute](#how-to-contribute)
+   - [Web Designers](#web-designers)
+   - [Prompt Engineers](#prompt-engineers)
+   - [Software Engineers](#software-engineers)
+   - [Other Contributions](#other-contributions)
+10. [Credits](#credits)
+11. [License](#license)
+12. [Disclaimer](#disclaimer)
+
 
 ## Introduction
 
