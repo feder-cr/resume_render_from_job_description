@@ -21,7 +21,6 @@ class CustomPendingDeprecationWarning(PendingDeprecationWarning):
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=PendingDeprecationWarning)
 
-
 REPO_OWNER = 'feder-cr'
 REPO_NAME = 'lib_resume_builder_AIHawk'
 BRANCH_NAME = 'main'
@@ -56,8 +55,18 @@ def clear_commit_file():
         with open(COMMIT_FILE, 'w') as f:
             f.write('')
 
+def uninstall_library():
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "uninstall", "-y", REPO_NAME])
+    except subprocess.CalledProcessError as e:
+        printred(f"Error during uninstallation: {e}")
+        
 def install_library():
-    subprocess.check_call([sys.executable, "-m", "pip", "install", f"git+https://github.com/{REPO_OWNER}/{REPO_NAME}.git"])
+    try:
+        uninstall_library()
+        subprocess.check_call([sys.executable, "-m", "pip", "install", f"git+https://github.com/{REPO_OWNER}/{REPO_NAME}.git"])
+    except subprocess.CalledProcessError as e:
+        printred(f"Error during installation: {e}")
 
 def check_for_changes_and_install():
     latest_commit_id = get_latest_commit_id()
@@ -65,13 +74,15 @@ def check_for_changes_and_install():
 
     if saved_commit_id is None:
         printred("Need lib_resume_builder_AIHawk. Auto-installing the library for the first time.")
-        printred("installing...")
+        printred("Installing...")
         install_library()
         save_commit_id(latest_commit_id)
     elif saved_commit_id != latest_commit_id:
-        printred("New version of lib_resume_builder_AIHawk. Reinstalling the library.")
+        printred("New version of lib_resume_builder_AIHawk detected. Reinstalling the library.")
         install_library()
         save_commit_id(latest_commit_id)
+    else:
+        print("Library is up to date.")
 
 @staticmethod
 def validate_secrets(secrets_yaml_path: Path):
