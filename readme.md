@@ -324,7 +324,11 @@ Resume_Builder_AIHawk simplifies the resume creation process by providing a flex
 We welcome contributions from the community! Whether you are a designer, prompt engineer, software engineer, or have other skills to offer, there are several ways you can contribute to Resume_Builder_AIHawk:
 
 ### Web Designers
-Help us enhance the visual appeal of the resume templates. [Learn how to contribute as a designer.](how_to_contribute/web_designer.md)
+
+Help us enhance the visual appeal of our resume templates by creating custom CSS styles. Your unique design can become part of our project!
+
+To learn how to contribute and add your design, [follow the guidelines for designers](https://github.com/feder-cr/lib_resume_builder_AIHawk/blob/main/how_to_contribute/web_designer.md).
+
 
 ### Prompt Engineers
 Assist in refining and developing effective prompts for resume customization. [Learn how to contribute as a prompt engineer.](how_to_contribute/prompt_engineer.md)
