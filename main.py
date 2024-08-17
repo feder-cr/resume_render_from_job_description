@@ -1,5 +1,4 @@
 import base64
-from email import utils
 import os
 from pathlib import Path
 import yaml
