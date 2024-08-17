@@ -69,6 +69,13 @@ To get started with Resume_Builder_AIHawk, follow these steps:
     ```bash
     cd resume_builder_AIHawk
     ```
+5. **Install Dependencies:**
+
+    Ensure you have `pip` installed, then run:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Configuration
 
@@ -288,9 +295,10 @@ To run Resume_Builder_AIHawk, execute the following command from your terminal:
 ```bash
 python main.py
 ```
+
 ## Dependencies
 
-Resume_Builder_AIHawk depends on the [lib_resume_builder_AIHawk repository](https://github.com/feder-cr/lib_resume_builder_AIHawk) repository. The library is automatically installed at program launch.
+- Resume_Builder_AIHawk depends on the [lib_resume_builder_AIHawk repository](https://github.com/feder-cr/lib_resume_builder_AIHawk) repository. The library is automatically installed at program launch.
 
 ## Documentation
 
