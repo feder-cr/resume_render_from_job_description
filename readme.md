@@ -18,17 +18,18 @@ Join our **Telegram community** for:
 3. [Installation](#installation)
 4. [Configuration](#configuration)
 5. [Usage](#usage)
-6. [Documentation](#documentation)
-7. [Troubleshooting](#troubleshooting)
-8. [Conclusion](#conclusion)
-9. [How to Contribute](#how-to-contribute)
+6. [Dependencies](#Dependencies)
+7. [Documentation](#documentation)
+8. [Troubleshooting](#troubleshooting)
+9. [Conclusion](#conclusion)
+10. [How to Contribute](#how-to-contribute)
    - [Web Designers](#web-designers)
    - [Prompt Engineers](#prompt-engineers)
    - [Software Engineers](#software-engineers)
    - [Other Contributions](#other-contributions)
-10. [Credits](#credits)
-11. [License](#license)
-12. [Disclaimer](#disclaimer)
+11. [Credits](#credits)
+12. [License](#license)
+13. [Disclaimer](#disclaimer)
 
 
 ## Introduction
@@ -67,14 +68,6 @@ To get started with Resume_Builder_AIHawk, follow these steps:
 
     ```bash
     cd resume_builder_AIHawk
-    ```
-
-5. **Install Dependencies:**
-
-    Ensure you have `pip` installed, then run:
-
-    ```bash
-    pip install -r requirements.txt
     ```
 
 ## Configuration
@@ -287,6 +280,7 @@ This file contains sensitive information. Never share or commit this file to ver
   - To obtain an API key, follow the tutorial at: https://medium.com/@lorenzozar/how-to-get-your-own-openai-api-key-f4d44e60c327
   - Note: You need to add credit to your OpenAI account to use the API. You can add credit by visiting the [OpenAI billing dashboard](https://platform.openai.com/account/billing).
 
+
 ## Usage
 
 To run Resume_Builder_AIHawk, execute the following command from your terminal:
@@ -294,16 +288,9 @@ To run Resume_Builder_AIHawk, execute the following command from your terminal:
 ```bash
 python main.py
 ```
+## Dependencies
 
-### Interactive CLI
-
-Once you run the application, you'll be presented with an interactive menu:
-
-- **Create Resume:** Generate a new resume using a selected style.
-- **Create Resume based on Job Description:** Generate a resume tailored to a specific job description by providing a URL.
-- **Exit:** Exit the application.
-
-You will be prompted to select a resume style and, if needed, provide a URL for the job description.
+Resume_Builder_AIHawk depends on the [lib_resume_builder_AIHawk repository](https://github.com/feder-cr/lib_resume_builder_AIHawk) repository. The library is automatically installed at program launch.
 
 ## Documentation
 
