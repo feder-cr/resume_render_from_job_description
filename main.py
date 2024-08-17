@@ -2,6 +2,8 @@ import base64
 import os
 from pathlib import Path
 import warnings
+import requests
+import yaml
 import subprocess
 import sys
 from typing import Type
