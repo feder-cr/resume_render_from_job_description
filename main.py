@@ -2,6 +2,7 @@ import base64
 import os
 from pathlib import Path
 import warnings
+import inquirer
 import requests
 import yaml
 import subprocess
@@ -49,6 +50,12 @@ def save_commit_id(commit_id):
     with open(COMMIT_FILE, 'w') as f:
         f.write(commit_id)
 
+def clear_commit_file():
+    """Clear the contents of the COMMIT_FILE."""
+    if os.path.exists(COMMIT_FILE):
+        with open(COMMIT_FILE, 'w') as f:
+            f.write('')
+
 def install_library():
     subprocess.check_call([sys.executable, "-m", "pip", "install", f"git+https://github.com/{REPO_OWNER}/{REPO_NAME}.git"])
 
@@ -91,7 +98,13 @@ def printred(text):
 def main():
     check_for_changes_and_install()
     
-    from lib_resume_builder_AIHawk import Resume, StyleManager, ResumeGenerator, FacadeManager
+    try:
+        from lib_resume_builder_AIHawk import Resume, StyleManager, ResumeGenerator, FacadeManager
+    except ModuleNotFoundError:
+        printred("Module 'lib_resume_builder_AIHawk' not found. Clearing commit file and retrying.")
+        clear_commit_file()  # Clear the contents of COMMIT_FILE
+        install_library()  # Reinstall the library
+        from lib_resume_builder_AIHawk import Resume, StyleManager, ResumeGenerator, FacadeManager  # Retry the import
     
     folder = "log"
     if not os.path.exists(folder):
@@ -106,7 +119,17 @@ def main():
     
     style_manager = StyleManager()
     resume_generator = ResumeGenerator()
-    manager = FacadeManager(api_key, style_manager, resume_generator, resume_object, log_path)
+    questions = [
+        inquirer.List(
+            'selection',  # Nome della variabile che conterrà la scelta dell'utente
+            message="What would you like to do?",  # Messaggio mostrato all'utente
+            choices=['Create Resume', 'Create Resume based on Job Description URL', 'Exit']  # Scelte disponibili
+        ),
+    ]
+
+    answers = inquirer.prompt(questions)
+    manager = FacadeManager(api_key, style_manager, resume_generator, resume_object, log_path, selection=answers['selection'])
+
     
     if os.path.exists("resume.pdf"):
         os.remove("resume.pdf")
