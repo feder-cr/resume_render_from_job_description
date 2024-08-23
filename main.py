@@ -8,6 +8,7 @@ import yaml
 import subprocess
 import sys
 from typing import Type
+from lib_resume_builder_AIHawk import Resume, StyleManager, ResumeGenerator, FacadeManager
 
 # Define custom deprecation warnings
 class CustomDeprecationWarning(DeprecationWarning):
@@ -21,68 +22,7 @@ class CustomPendingDeprecationWarning(PendingDeprecationWarning):
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=PendingDeprecationWarning)
 
-REPO_OWNER = 'feder-cr'
-REPO_NAME = 'lib_resume_builder_AIHawk'
-BRANCH_NAME = 'main'
-HIDDEN_DIR = os.path.expanduser('~/.my_repo_cache')
-COMMIT_FILE = os.path.join(HIDDEN_DIR, 'last_commit_id.txt')
 
-def ensure_hidden_dir_exists():
-    if not os.path.exists(HIDDEN_DIR):
-        os.makedirs(HIDDEN_DIR)
-
-def get_latest_commit_id():
-    url = f'https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/branches/{BRANCH_NAME}'
-    response = requests.get(url)
-    response.raise_for_status()
-    branch_info = response.json()
-    return branch_info['commit']['sha']
-
-def get_saved_commit_id():
-    if os.path.exists(COMMIT_FILE):
-        with open(COMMIT_FILE, 'r') as f:
-            return f.read().strip()
-    return None
-
-def save_commit_id(commit_id):
-    ensure_hidden_dir_exists()
-    with open(COMMIT_FILE, 'w') as f:
-        f.write(commit_id)
-
-def clear_commit_file():
-    """Clear the contents of the COMMIT_FILE."""
-    if os.path.exists(COMMIT_FILE):
-        with open(COMMIT_FILE, 'w') as f:
-            f.write('')
-
-def uninstall_library():
-    try:
-        subprocess.check_call([sys.executable, "-m", "pip", "uninstall", "-y", REPO_NAME])
-    except subprocess.CalledProcessError as e:
-        printred(f"Error during uninstallation: {e}")
-        
-def install_library():
-    try:
-        uninstall_library()
-        subprocess.check_call([sys.executable, "-m", "pip", "install", f"git+https://github.com/{REPO_OWNER}/{REPO_NAME}.git"])
-    except subprocess.CalledProcessError as e:
-        printred(f"Error during installation: {e}")
-
-def check_for_changes_and_install():
-    latest_commit_id = get_latest_commit_id()
-    saved_commit_id = get_saved_commit_id()
-
-    if saved_commit_id is None:
-        printred("Need lib_resume_builder_AIHawk. Auto-installing the library for the first time.")
-        printred("Installing...")
-        install_library()
-        save_commit_id(latest_commit_id)
-    elif saved_commit_id != latest_commit_id:
-        printred("New version of lib_resume_builder_AIHawk detected. Reinstalling the library.")
-        install_library()
-        save_commit_id(latest_commit_id)
-    else:
-        print("Library is up to date.")
 
 @staticmethod
 def validate_secrets(secrets_yaml_path: Path):
@@ -106,17 +46,7 @@ def printred(text):
     RESET = "\033[0m"
     print(f"{RED}{text}{RESET}")
 
-def main():
-    check_for_changes_and_install()
-    
-    try:
-        from lib_resume_builder_AIHawk import Resume, StyleManager, ResumeGenerator, FacadeManager
-    except ModuleNotFoundError:
-        printred("Module 'lib_resume_builder_AIHawk' not found. Clearing commit file and retrying.")
-        clear_commit_file()  # Clear the contents of COMMIT_FILE
-        install_library()  # Reinstall the library
-        from lib_resume_builder_AIHawk import Resume, StyleManager, ResumeGenerator, FacadeManager  # Retry the import
-    
+def main():  
     folder = "log"
     if not os.path.exists(folder):
         os.makedirs(folder)
