@@ -1,4 +1,13 @@
+google-genai
+python-dotenv
 pyyaml
+rich
+pydantic
+jinja2
+reportlab
+streamlit
+beautifulsoup4
 requests
-inquirer
-lib_resume_builder_AIHawk
+scikit-learn
+pdfplumber
+python-docx
