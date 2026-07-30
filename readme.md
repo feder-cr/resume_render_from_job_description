@@ -363,7 +363,10 @@ a Playwright replacement built on a Firefox patched at the source level, so the 
 fingerprint is set inside the engine rather than injected from the page. Its
 [docs](https://github.com/feder-cr/invisible_playwright/blob/main/docs/index.md) cover
 how browser automation actually gets detected, if that's useful for anything else you're
-building.
+building:
+
+- [The checklist for being detected on one site](https://github.com/feder-cr/invisible_playwright/blob/main/docs/playwright-detected-as-bot.md)
+- [Why automating the login form is riskier than reusing a session](https://github.com/feder-cr/invisible_playwright/blob/main/docs/automating-login-vs-session-reuse.md)
 
 ## License
 
