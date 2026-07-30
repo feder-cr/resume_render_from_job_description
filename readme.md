@@ -356,6 +356,15 @@ For immediate support and to connect with the AIHawk community, join our Telegra
 
     todo
 
+## Other projects
+
+Most of what I work on now is [invisible_playwright](https://github.com/feder-cr/invisible_playwright),
+a Playwright replacement built on a Firefox patched at the source level, so the browser
+fingerprint is set inside the engine rather than injected from the page. Its
+[docs](https://github.com/feder-cr/invisible_playwright/blob/main/docs/index.md) cover
+how browser automation actually gets detected, if that's useful for anything else you're
+building.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
